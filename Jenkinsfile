@@ -7,7 +7,7 @@ stage('Preparation'){
 
 stage('Build'){
 	withEnv(["MVN_HOME=$mvnHome"]){
-	  bat(/"%MVN_HOME%/bin/mvn" clean compile install/)
+	  bat(/"%MVN_HOME%\bin\mvn" clean compile install/)
 	}
 }
 stage('Test'){
