@@ -1,4 +1,4 @@
-#Jenkins Pull Request Builder Test 2
+#Jenkins Pull Request Builder Test 3
 node{
 def mvnHome
 stage("Preparation"){
