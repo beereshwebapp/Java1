@@ -11,6 +11,6 @@ stage('Build'){
 	}
 }
 stage('Test'){
-	echo 'Testing completed - GIT Webhook'
+	echo 'Testing completed - GIT Webhook Test 1'
 }
 }
